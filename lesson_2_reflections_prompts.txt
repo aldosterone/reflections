@@ -1,0 +1,3 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+Git creates hidden .git directory to contain metadata aboue the various commits.  Without initializing a git repository, the directory is just a regular directory without any version tracking.
