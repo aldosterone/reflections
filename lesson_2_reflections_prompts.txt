@@ -5,3 +5,15 @@ Git creates hidden .git directory to contain metadata aboue the various commits.
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area contains the file or files from the working directory that will be added to the git repository.   The user explicity tells Git which files to add to the repository but adding them to the staging area.  Other files in the working directory are not tracked by Git.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can add all the files to the staging area that are involved with that single logical change, and then commit those files at one time.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches can be useful when keeping different versions for things such as adding new features, creating a port for a different language, etc.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams make it very easy to see the common point from which one branch diverged from another branch.
