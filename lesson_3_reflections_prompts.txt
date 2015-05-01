@@ -1,29 +1,29 @@
 When would you want to use a remote repository rather than keeping all your work
 local?
 
-A couple of reasons: to keep an offsite backup of your repository or to share your work with others.
+	A couple of reasons: to keep an offsite backup of your repository or to share your work with others.
 
 Why might you want to always pull changes manually rather than having Git
 automatically stay up-to-date with your remote repository?
 
-    Fill in your answer here
+    You could be working on an older version of a repository locally, perhaps to debug a problem. You wouldn't want that to be automatically overwritten by a newer remote version that could contain the bug.
 
 Describe the differences between forks, clones, and branches.  When would you
 use one instead of another?
 
-    Fill in your answer here
+    A fork is a a copy of a repository in github from one user's account to another's.  A clone is a copy of a repository.  A branch is a new line of code, which could be used when adding a new feature, for instance.
 
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 
-    Fill in your answer here
+    That way, if you have to work offline, you have access to all the recent changes that were made to a repository.
 
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 
-    Fill in your answer here
+    One option for collaboration would be to send files back and forth by email  This would be tedious, but you would have a record of all changes.  Merging those changes together would be labor intesive though.  You'd have to do a lot of manual diffs.
 
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    I think it makes sense to make changes in a separate branch, if you're doing something like adding, modifying or deleting code from an existing branch or adding soemthing new to a respository - like new features for instance.   It is nice to have logical separation between branches for work such as new features, but it does increase the complexity of the project.  Which feature is where?   Where should I make updates?   Have I folded in my changes everywhere they should be?  That sort of thing.
